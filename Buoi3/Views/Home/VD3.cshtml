@@ -1,0 +1,25 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>VD3</title>
+    <script language="JavaScript">
+        function Homnay() {
+            var d = new Date();
+            var month = d.getMonth() + 1;
+            var year = d.getFullYear();
+            alert("Hôm nay là ngày " + d.getDate() + " tháng " + month + " năm " + year);
+        }
+    </script>
+</head>
+<body>
+    <form name="form1">
+        <input type="button" value="Hôm nay" onclick="Homnay();" />
+    </form>
+</body>
+</html>
